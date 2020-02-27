@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".fragments.addPump">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:scrollbars="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8sp"
+                android:layout_marginEnd="8sp"
+                android:layout_marginBottom="8sp"
+                app:cardCornerRadius="25sp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="105sp"
+                        android:layout_height="81sp"
+                        android:paddingBottom="20sp"
+                        android:layout_marginTop="30dp"
+                        android:src="@drawable/baridhara_logo"/>
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="332sp"
+                        android:layout_height="35sp"
+                        android:text="@string/adding_a_pump_is_easy"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="15sp"
+                        android:textSize="18sp"/>
+
+                    <EditText
+                        android:id="@+id/pump_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/id"
+                        android:ems="10"
+                        android:hint="@string/pump_id"
+                        android:inputType="textPersonName"
+                        android:paddingStart="50sp"
+                        android:paddingEnd="0sp"
+                        android:layout_marginBottom="20dp"/>
+
+
+                    <EditText
+                        android:id="@+id/pump_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/name"
+                        android:ems="10"
+                        android:hint="@string/pump_name"
+                        android:inputType="textPersonName"
+                        android:paddingStart="50sp"
+                        android:paddingEnd="0sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <Button
+                        android:id="@+id/add_pump"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/addpump"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="40dp"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

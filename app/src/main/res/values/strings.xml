@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Baridhara</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="sign_up_success">You Have Successfully Registered, Now Login With Your Credentials.</string>
+    <string name="sign_up_failed">Registration Failed, Please Try Again.</string>
+    <string name="login_failed">Login Attempt Failed, Please Check Your Mobile Number And Password.</string>
+    <string name="add_pump_success">Your Pump Successfully Attached With Your Account.</string>
+    <string name="add_pump_failed">Your Pump Can Not Be Attached With Your Account.</string>
+    <string name="add_pump_already">Your Pump Is Already Attached With Someone\s Account,
+                                    If You Thinks It Is A Mistake Then Contact With Your Seller.</string>
+    <string name="pump_delete">Are You Want To Delete This Device From Your Account?</string>
+    <string name="pump_delete_success">Your Pump Removed From Your Account.</string>
+    <string name="pump_delete_failed">Your Pump Can Not Be Removed From Your Account.</string>
+    <string name="pump_rename_success">Your Pump Renamed.</string>
+    <string name="pump_rename_failed">Your Pump Can Not Be Renamed.</string>
+    <string name="pump_attached_success">Now Can Control Your Pump.</string>
+    <string name="pump_attached_failed">Adding To Your Pump Has Been Failed.</string>
+    <string name="pump_detached_success">Lost Privilege For Your Pump.</string>
+    <string name="pump_detached_failed">Can Not Be Detached From Your Pump, Please Try Again.</string>
+    <string name="remove_user_wait">Hang On. This Feature is Coming Soon But
+                                    If You Badly Needed To Remove Someone Then Contact
+                                    With Us. We Will be Happy To Help You.</string>
+    <string name="buttonLogin">Log In</string>
+    <string name="signUp">Not A Member? Sign Up.</string>
+    <string name="rememberME">Remember Me</string>
+    <string name="forgotPIN">Forgot PIN?</string>
+    <string name="broughtYouBy">Brought You By Consistent Services. \n © 2019 Consistent Services.</string>
+    <string name="headingApp">BariDhara.</string>
+    <string name="already_login">Already Have An Account? Log In.</string>
+    <string name="submitButton">Submit</string>
+    <string name="reset_pin">Reset PIN</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="edit_details_button">Edit Details</string>
+    <string name="button_on">On</string>
+    <string name="button_off">OFF</string>
+    <string name="null_voltage">- - -</string>
+    <string name="no_internet">Waiting For Internet\nPlease Connect To Internet.</string>
+    <string name="exit_button">Exit</string>
+    <string name="user_not_exists">Your Mobile Number Is Not Registered With Us. Please Register Yourself.</string>
+    <string name="wrong_password">Wrong Password!!</string>
+    <string name="user_already_logged_in">User Is Already Logged In Else Where, Please Logout From There.</string>
+    <string name="mobile_already_registered">This Mobile Number Is Already Registered.
+        \nEither Login With It Or Sign Up Using Different Mobile Number</string>
+    <string name="otp">One Time Password</string>
+    <string name="did_not_received_otp">Did Not Received The OTP?</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="verify">Verify</string>
+    <string name="verification">Verification</string>
+    <string name="otp_verify_failed">You Have Entered An Incorrect OTP.Please Try Again.</string>
+    <string name="otp_verified_new_account">Your Mobile Number Successfully Verified.Account is Activated.Please Login With Your Credentials.</string>
+    <string name="otp_not_verified">Mobile Number Is Not Verified.</string>
+    <string name="otp_on_call">Get OTP On Call</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="retype_new_pin">Retype New 4 Digit PIN</string>
+    <string name="new_pin">New New 4 Digit PIN</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="reset_pin_heading">Reset PIN</string>
+    <string name="password_changed">Your Password Has Been Changed. Please Login With Your New Password.</string>
+    <string name="dashboard_header">Dashboard</string>
+    <string name="logout_button">Logout.</string>
+    <string name="pin_hint">4 Digit PIN</string>
+    <string name="retype_pin">Retype 4 Digit PIN</string>
+    <string name="know_your_pin_login">Know Your PIN? Login</string>
+    <string name="enter_mobile_number">Enter Mobile Number.</string>
+    <string name="enter_address">Enter Address.</string>
+    <string name="enter_name">Enter Name.</string>
+    <string name="user_registration">User Registration</string>
+    <string name="login_heading">Login</string>
+    <string name="device_name">Device Name:</string>
+    <string name="device_id">Device ID:</string>
+    <string name="device_status">Device Status:</string>
+    <string name="phase_r">Phase R:</string>
+    <string name="v">V.</string>
+    <string name="phase_y">Phase Y:</string>
+    <string name="phase_b">Phase B:</string>
+    <string name="add_user_to">Add User To:</string>
+    <string name="enter_the_name">Enter The Name.</string>
+    <string name="enter_the_mobile_number">Enter The Mobile Number.</string>
+    <string name="opps">Opps!</string>
+    <string name="remove_user_for">Remove User For:</string>
+    <string name="delete">Delete!</string>
+    <string name="rename">Rename</string>
+    <string name="enter_new_device_name">Enter New Device Name.</string>
+    <string name="sending_message">Sending Message....</string>
+    <string name="success">Success!</string>
+    <string name="adding_a_pump_is_easy">Adding A Pump Is Easy!!</string>
+    <string name="pump_id">Pump ID</string>
+    <string name="pump_name">Pump Name</string>
+    <string name="please_wait">Please Wait......</string>
+    <string name="internal_server_error">Internal Server Error, Please Try Again Later.....</string>
+    <string name="TOC">Terms And Conditions</string>
+    <string name="i_agree_all_the_terms_and_conditions">I Agree To The <u>Terms And Conditions.</u></string>
+    <string name="terms_error">Please Accept Our Terms And Conditions</string>
+    <string name="get_in_touch_with_us">Get In Touch With Us.</string>
+    <string name="offers_and_promotions">Offers And Promotions.</string>
+    <string name="analytics">Analytics.</string>
+    <string name="electricity_consumtion_calculator">Electricity Consumption\nCalculator.</string>
+    <string name="weather_report">Weather Report.</string>
+    <string name="kisan_samachar">Kisan Samachar.</string>
+    <string name="about_us">About Us.</string>
+    <string name="logout_alert">Are you want to logout from your account?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+</resources>
